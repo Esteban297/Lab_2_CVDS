@@ -10,8 +10,7 @@ Algunas de sus fases son:
 * complie: Se generan los ficheros .class compilando las fuentes .java
 * test: Ejecuta los test automaticos de JUnit existentes, abordando el proceso si alguno de ellos falla
 * package: Genera el fichero .jar con los .class compilados
-* install: Copia el fichero .jar a un directorio de nuestro ordenador donde maven deja todos los .jar. De esta forma esos .jar pueden utilizarse 
-           en otros proyectos maven en el mismo ordenador.
+* install: Copia el fichero .jar a un directorio de nuestro ordenador donde maven deja todos los .jar. De esta forma esos .jar pueden utilizarse  en otros proyectos maven en el mismo ordenador.
 * deploy: Copia el fichero .jar a un servidor remoto, poniéndolo disponible para cualquier proyecto maven con acceso a ese servidor remoto.
 
 1. ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
