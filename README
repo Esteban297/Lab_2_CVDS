@@ -1,0 +1,23 @@
+#Laboratorio 2 CVDS
+
+¿Que es Maven?
+
+Maven garantiza que los archivos JAR y bibliotecas del proyecto se descarguen automáticamente. Solo la información relacionada con las 
+versiones del software y el tipo de dependencias deben describirse en el archivo pom.xml.
+
+Algunas de sus fases son:
+
+* complie: Se generan los ficheros .class compilando las fuentes .java
+* test: Ejecuta los test automaticos de JUnit existentes, abordando el proceso si alguno de ellos falla
+* package: Genera el fichero .jar con los .class compilados
+* install: Copia el fichero .jar a un directorio de nuestro ordenador donde maven deja todos los .jar. De esta forma esos .jar pueden utilizarse 
+           en otros proyectos maven en el mismo ordenador.
+* deploy: Copia el fichero .jar a un servidor remoto, poniéndolo disponible para cualquier proyecto maven con acceso a ese servidor remoto.
+
+1. ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+   Solo funciona el Hexagon, debido a que es el único argumento de los probados, que reconoce la función
+2. Investigue para qué sirve "gitignore" y cómo se usa.
+   Un archivo con la extensión GITIGNORE es un archivo Git Ignore utilizado con el sistema de control de versiones/fuentes llamado Git. 
+   Especifica qué archivos y carpetas no deben ser ignorados en un código fuente dado.  Se puede usar por ruta, de modo que las reglas sólo 
+   se aplican a carpetas específicas, pero también puedes crear un archivo GITIGNORE global que se aplique a todos los repositorios Git que tengas.
+   Esto permite llevar un historial mucho mas limpio y ayuda a concentrarse en los cambios realmente importantes.
